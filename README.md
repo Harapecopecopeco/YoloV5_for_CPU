@@ -21,8 +21,11 @@ GPUを使おうとするので [PyTorch-START LOCALLY](https://pytorch.org/get-s
 ### 2. Activate venv
 `source venv/bin/activate`
 ### 3. Install python library
-`pip install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html`  
-`pip install -r requrements.txt`
+
+```bash
+pip install torch==1.9.0+cpu torchvision==0.10.0+cpu torchaudio==0.9.0 -f https://download.pytorch.org/whl/torch_stable.html`  
+pip install -r requrements.txt
+```
 
 ### 4. Check run detect.py
 
